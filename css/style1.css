@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Belwe-Bold';
+  src: url('../fonts/Belwe-Bold.woff2') format('woff2'),
+       url('../fonts/Belwe-Bold.woff') format('woff'),
+       url('../fonts/Belwe-Bold.ttf') format('truetype');
+}
 /*HOMEPAGE*/
 body{
   font-family: Belwe-Bold, Arial, Helvetica;
