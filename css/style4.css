@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Belwe-Bold';
+  src: url('../fonts/Belwe-Bold.woff2') format('woff2'),
+       url('../fonts/Belwe-Bold.woff') format('woff'),
+       url('../fonts/Belwe-Bold.ttf') format('truetype');
+}
+/*PRICING PAGE*/
+body{
+  font-family: Belwe-Bold, Arial, Helvetica;
+  margin: 0;
+  background-color: #F7941E;
+      overflow-x: hidden;
+           position: relative;
+           padding-bottom: 100px;
+
+
+}
+.width-960 {
+max-width: 100%;
+margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+
+/*PRICING*/
+.price-sheet{
+  text-align: center;
+margin-top: 20px;
+padding: 10px;
+}
+.print-pricing,
+.shirt-info{
+max-width: 100%;
+}
+img:hover:after {
+  content: attr(title);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  white-space: nowrap;
+  z-index: 999;
+  background: #ccc;
+  color: black;
+  padding: 5px;
+}

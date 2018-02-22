@@ -1,0 +1,230 @@
+@font-face {
+	font-family: 'Belwe-Bold';
+	src: url('../fonts/Belwe-Bold.woff2') format('woff2'),
+			 url('../fonts/Belwe-Bold.woff') format('woff'),
+			 url('../fonts/Belwe-Bold.ttf') format('truetype');
+}
+/*SERVICES PAGE*/
+body{
+	font-family: Belwe-Bold, Arial, Helvetica;
+	margin: 0;
+	background-color: #F7941E;
+	overflow: auto;
+	 overflow-x: hidden;
+	      position: relative;
+ padding-bottom: 100px;
+}
+.width-960 {
+max-width: 100%;
+margin: 0 auto;
+}
+.flex {
+	display: flex;
+}
+/*CONTAINER FOR PICTURES*/
+.inner {
+height: 360;
+width: 300;
+margin: 0 auto;
+}
+.display-pic {
+	width: 100%;
+	border: 2px solid black;
+}
+/*INFO*/
+.head {
+color: #ffffff;
+justify-content: center;
+font-weight: bold;
+text-align: center;
+font-size: 50px;
+text-shadow: 
+		-2px -2px 0 #000,  
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+.info {
+padding: 0 30px;
+margin: 30 90px;
+display: flex;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+background-color: #ffffff;
+}
+.p1 {
+color: #000000;
+font-size: 16px;
+line-height: 15px;
+}
+/*SERVICES-PRINT*/
+.printing {
+flex: 1;
+text-align: center;
+}
+
+.print-pic {
+border: #000000 2px solid;
+max-width: 100%;
+height: 350px;
+}
+/*SERVICES-DECAL*/
+.decals {
+flex: 1;
+text-align: center;
+}
+
+.decal-pic {
+border: #000000 2px solid;
+max-width: 100%;
+height: 350px;
+}
+
+/*PICTURE COLUMN*/
+.row > .p-mod{
+	padding: 0 4px;
+}
+.row > .d-mod{
+	padding: 0 4px;
+}
+.row {
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.p-mod,
+.d-mod{
+	float: left;
+	width: 25%;
+	margin: 2px 0px;
+    padding: 2px;
+}
+.p-mod img, 
+.d-mod img {
+width: 100%;
+cursor: pointer;
+
+}
+
+/* MODAL BACKGROUND */
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: #000000f0;
+}
+
+/* MODAL CONTENT */
+.modal-content {
+	position: relative;
+	background-color: #F7941E;
+	margin: auto;
+	padding: 4px;
+	width: 70%;
+	max-width: 100%;
+}
+
+
+/* CLOSE OUT */
+.close {
+	color: #ffffff;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+}
+.mySlides {
+	display: none;
+}
+.mySlides img {
+	width: 100%;
+}
+
+/* DISPLAY BUTTONS */
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* NUMBER TEXT */
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* CAPTION TEXT */
+.caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+}
+
+img.demo {
+	opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+	opacity: 1;
+}
+
+img.hover-shadow {
+	transition: 0.3s
+}
+
+.hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+/*MOBILE FRIENDLY*/
+@media screen and (max-width: 790px) {
+.flex {
+  flex-wrap: wrap;
+}
+.printing {
+  flex-basis: 100%;
+}
+.row {
+  flex-basis: 100%;
+} 
+}
