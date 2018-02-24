@@ -75,7 +75,7 @@ nav {
 .mobilenav {
   background-color: #ED1D24;
   border: 2px solid black;
-  margin: 0;
+ 
   transform: translate(100px, 0%);
   width: 172px;
   transition: 1s all ease-in-out;
@@ -127,6 +127,7 @@ background-color: #ED1D24;
 
 /*MOBILE FRIENDLY*/
 @media screen and (max-width: 790px) {
+
   #hamburger {
     display: block;
   }
@@ -134,15 +135,14 @@ background-color: #ED1D24;
   display: none;
   }
   .mobilenav.active {
-    transform: translate(-100px, 0%);
-    position: inherit;
+    transform: translate(-100px, 0%);  
+    position: absolute;
   }
+
 nav {
   display: inline-block;
   position: absolute;
   right: 0;
 }
-.width-960: {
-  width: auto;
-}
+
 }
