@@ -135,7 +135,7 @@ background-color: #ED1D24;
   }
   .mobilenav.active {
     transform: translate(-100px, 0%);
-    position: absolute;
+    position: inherit;
   }
 nav {
   display: inline-block;
