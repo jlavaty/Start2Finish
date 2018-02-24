@@ -1,0 +1,148 @@
+@font-face {
+  font-family: 'Belwe-Bold';
+  src: url('../fonts/Belwe-Bold.woff2') format('woff2'),
+       url('../fonts/Belwe-Bold.woff') format('woff'),
+       url('../fonts/Belwe-Bold.ttf') format('truetype');
+}
+/*NAVAGATION*/
+.nav {
+  background-color: #ED1D24;
+  border: 2px solid;
+}
+.nav-padding {
+display: flex;
+justify-content: space-between;
+text-align: center;
+margin-right: 78px;
+}
+.sm-logo {
+  height: 72px;
+  width: auto;
+  padding-left: 10px;
+}
+.nav-items li {
+    display: inline-block;
+  }
+
+.nav-items li a{
+ display: flex;
+ font-size: 20px;
+ color: #ECF0F1;
+ padding: 10 50px;
+ }
+ .mobile-logo {
+  margin: 0 auto;
+ }
+ul{
+  list-style-type: none;
+}
+
+a{ 
+text-decoration: none; 
+}
+
+.nav-items a:hover{  
+  color: #000000;
+  transition: font-size .5s;
+  transition: color .5s;
+  font-weight: bold;
+}
+/*HAMBURGER NAV*/
+#hamburger {
+  border-left: 2px solid black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  height: 62px;
+  cursor: pointer;
+}
+span.ham-line {
+  width: 40px;
+  margin: 12px;
+  height: 4px;
+  position: relative;
+  display: block;
+  background-color: black;
+  border-radius: 3px;
+  pointer-events: none;
+}
+nav {
+  background-color: #ED1D24;
+  display: none;
+}
+
+.mobilenav {
+  background-color: #ED1D24;
+  border: 2px solid black;
+  margin: 0;
+  transform: translate(100px, 0%);
+  width: 172px;
+  transition: 1s all ease-in-out;
+  position: absolute;
+  z-index: 1;
+}
+
+.mobilenav li a{
+  display: inline-block;
+  color: #ECF0F1;
+}
+ .mobilenav ul {
+  margin: 0 auto;
+  padding: 20px;
+}
+.mobile-nav-items{
+  list-style: none;
+    font-size: 20px;
+  text-decoration: none; 
+  color: #ECF0F1;
+  padding: 30px;
+  text-align: center;
+}
+.mobilenav a:hover{  
+  color: #000000;
+  transition: font-size .5s;
+  transition: color .5s;
+  font-weight: bold;
+}
+.mobilenav.active {
+
+}
+/*FOOTER*/
+footer {
+padding: 10px 0 5px;
+background-color: #ED1D24;
+  border: 2px solid;
+      position: absolute;
+    bottom: 0;
+    width: 100%
+}
+.copyright {
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+    font-size: 18px;
+
+}
+
+/*MOBILE FRIENDLY*/
+@media screen and (max-width: 790px) {
+  #hamburger {
+    display: block;
+  }
+.nav-items {
+  display: none;
+  }
+  .mobilenav.active {
+    transform: translate(-100px, 0%);
+    position: inherit;
+  }
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+.width-960: {
+  width: auto;
+}
+}
