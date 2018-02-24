@@ -75,11 +75,11 @@ nav {
 .mobilenav {
   background-color: #ED1D24;
   border: 2px solid black;
- 
   transform: translate(100px, 0%);
   width: 172px;
   transition: 1s all ease-in-out;
   position: absolute;
+  display: block;
   z-index: 1;
 }
 
@@ -145,4 +145,3 @@ nav {
   right: 0;
 }
 
-}

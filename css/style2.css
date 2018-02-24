@@ -45,9 +45,8 @@ text-shadow:
 		1px 1px 0 #000;
 }
 .info {
-padding: 0 30px;
-margin: 30 90px;
-display: flex;
+padding: 5 10px;
+margin: 30 80px;
 box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 background-color: #ffffff;
 }
@@ -227,4 +226,7 @@ img.hover-shadow {
 .row {
   flex-basis: 100%;
 } 
+.info {
+margin: 30 10px;
+}
 }

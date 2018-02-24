@@ -65,8 +65,12 @@ max-width: 100%;
 }
 .map {
   flex-basis: 100%;
-  order:1;
+  order: 1;
 }
+.picture2 {
+	order: 2;
+}
+
 .info {
   font-size: 1rem;
   line-height: 25px;

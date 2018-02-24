@@ -9,6 +9,7 @@ var hamburger = document.querySelector('#hamburger');
       mNav.classList.add('active');
     } else {
       mNav.classList.remove('active');
-    }
+    } 
   
   }
+
