@@ -127,9 +127,9 @@ background-color: #ED1D24;
 
 /*MOBILE FRIENDLY*/
 @media screen and (max-width: 790px) {
+
   #hamburger {
     display: block;
-
   }
 .nav-items {
   display: none;
@@ -138,6 +138,9 @@ background-color: #ED1D24;
     transform: translate(-100px, 0%);  
     position: absolute;
   }
+.mobilenav {
+  display: block;
+}
 nav {
   display: inline-block;
   position: absolute;

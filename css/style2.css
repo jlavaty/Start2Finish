@@ -9,8 +9,7 @@ body{
 	font-family: Belwe-Bold, Arial, Helvetica;
 	margin: 0;
 	background-color: #F7941E;
-	overflow: auto;
-	 overflow-x: hidden;
+		 overflow-x: hidden;
 	      position: relative;
  padding-bottom: 100px;
 }
