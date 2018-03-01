@@ -49,30 +49,13 @@ text-decoration: none;
 }
 /*HAMBURGER NAV*/
 #hamburger {
-  border-left: 2px solid black;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 3px;
   padding-right: 3px;
   height: 62px;
   cursor: pointer;x
-}
-#hamburger.active .ham-line:nth-child(2){
-  opacity: 0;
-}
-
-#hamburger.active .ham-line:nth-child(1){
-  -webkit-transform: translateY(13px) rotate(45deg);
-  -ms-transform: translateY(13px) rotate(45deg);
-  -o-transform: translateY(13px) rotate(45deg);
-  transform: translateY(13px) rotate(45deg);
-}
-
-#hamburger.active .ham-line:nth-child(3){
-  -webkit-transform: translateY(-13px) rotate(-45deg);
-  -ms-transform: translateY(-13px) rotate(-45deg);
-  -o-transform: translateY(-13px) rotate(-45deg);
-  transform: translateY(-13px) rotate(-45deg);
+ z-index: 999;
 }
 span.ham-line {
   width: 40px;
