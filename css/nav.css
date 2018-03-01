@@ -57,6 +57,23 @@ text-decoration: none;
   height: 62px;
   cursor: pointer;x
 }
+#hamburger.active .ham-line:nth-child(2){
+  opacity: 0;
+}
+
+#hamburger.active .ham-line:nth-child(1){
+  -webkit-transform: translateY(13px) rotate(45deg);
+  -ms-transform: translateY(13px) rotate(45deg);
+  -o-transform: translateY(13px) rotate(45deg);
+  transform: translateY(13px) rotate(45deg);
+}
+
+#hamburger.active .ham-line:nth-child(3){
+  -webkit-transform: translateY(-13px) rotate(-45deg);
+  -ms-transform: translateY(-13px) rotate(-45deg);
+  -o-transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-13px) rotate(-45deg);
+}
 span.ham-line {
   width: 40px;
   margin: 12px;
@@ -70,6 +87,8 @@ span.ham-line {
 nav {
   background-color: #ED1D24;
   display: none;
+      top: 0;
+      position: relative;
 }
 
 .mobilenav {
@@ -78,9 +97,10 @@ nav {
   transform: translate(100px, 0%);
   width: 172px;
   transition: 1s all ease-in-out;
-  position: absolute;
+  position: fixed;
   display: block;
   z-index: 1;
+  height: calc(100% - 75px);
 }
 
 .mobilenav li a{
@@ -105,9 +125,7 @@ nav {
   transition: color .5s;
   font-weight: bold;
 }
-.mobilenav.active {
 
-}
 /*FOOTER*/
 footer {
 padding: 10px 0 5px;
@@ -129,14 +147,20 @@ background-color: #ED1D24;
 @media screen and (max-width: 790px) {
   #hamburger {
     display: block;
-
+position: fixed;
+    right: 0;
+    top: 0;
   }
+
 .nav-items {
   display: none;
   }
   .mobilenav.active {
-    transform: translate(-100px, 0%);  
-    position: absolute;
+        position: fixed;
+    top: 0;
+    width: 100%;
+    height: calc(100%);
+    transform: translate(calc(-100%), 0%);
   }
 nav {
   display: inline-block;
