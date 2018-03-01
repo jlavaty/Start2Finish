@@ -88,7 +88,8 @@ nav {
 
 .mobilenav li a{
   display: inline-block;
-  color: #ECF0F1;
+  color: #ECF0F1;r
+  font-size: 30px;
 }
  .mobilenav ul {
   margin: 0 auto;
@@ -130,7 +131,7 @@ background-color: #ED1D24;
 @media screen and (max-width: 790px) {
   #hamburger {
     display: block;
-position: fixed;
+position: absolute;
     right: 0;
     top: 0;
     z-index: 999;
