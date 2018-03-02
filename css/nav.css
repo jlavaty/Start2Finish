@@ -57,7 +57,7 @@ text-decoration: none;
   cursor: pointer;x
  z-index: 999;
 }
-span.ham-line {
+.ham-line {
   width: 40px;
   margin: 12px;
   height: 4px;
@@ -145,7 +145,7 @@ position: absolute;
     position: fixed;
     top: 0;
     width: 100%;
-    height: calc(100%);
+    height: 100%;
     transform: translate(calc(-100%), 0%);
   }
 nav {
