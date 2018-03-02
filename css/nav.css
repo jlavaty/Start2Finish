@@ -79,7 +79,7 @@ nav {
   border: 2px solid black;
   transform: translate(100px, 0%);
   width: 172px;
-  transition: 1s all ease-in-out;
+  transition: 1s 1s all cubic-bezier(0.22, 0.61, 0.36, 1);
   position: fixed;
   display: block;
   z-index: 1;
