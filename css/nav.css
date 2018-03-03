@@ -4,6 +4,9 @@
        url('../fonts/Belwe-Bold.woff') format('woff'),
        url('../fonts/Belwe-Bold.ttf') format('truetype');
 }
+body {
+  overflow-x: hidden: 
+}
 /*NAVAGATION*/
 .nav {
   background-color: #ED1D24;
