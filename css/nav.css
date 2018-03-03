@@ -28,7 +28,7 @@ margin-right: 78px;
  display: flex;
  font-size: 25px;
  color: #ECF0F1;
- padding: 10 50px;
+ padding: 10px 50px;
  }
 
 ul{
@@ -47,7 +47,7 @@ text-decoration: none;
 }
 /*HAMBURGER NAV*/
  .mobile-logo {
-  margin: 0 auto;
+  margin: 0px auto;
  }
 
 .nav{
@@ -144,11 +144,11 @@ text-decoration: none;
 
 /*FOOTER*/
 footer {
-padding: 10px 0 5px;
+padding: 10px 0px 5px;
 background-color: #ED1D24;
   border: 2px solid #000000;
       position: absolute;
-    bottom: 0;
+    bottom: 0px;
         line-height: 20px;
     width: 100%;
     }
@@ -181,5 +181,5 @@ background-color: #ED1D24;
   }
 
 .nav-padding {
-  margin: 0;
+  margin: 0px;
 }

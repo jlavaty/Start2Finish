@@ -7,7 +7,7 @@
 /*HOMEPAGE*/
 body{
   font-family: Belwe-Bold, Arial, Helvetica;
-  margin: 0;
+  margin: 0px;
   background-color: #F7941E;
   overflow-x: hidden;
     position: relative;
@@ -16,7 +16,7 @@ body{
 }
 .width-960 {
 max-width: 100%;
-margin: 0 auto;
+margin: 0px auto;
 
 }
 .flex {
@@ -35,10 +35,10 @@ margin: 0 auto;
 }
 .logo {
 max-width: 100%;
-margin: 0 auto;
+margin: 0px auto;
 position: absolute;
-left: 0;
-right: 0;
+left: 0px;
+right: 0px;
 align-self: center;
 }
 
