@@ -149,7 +149,8 @@ background-color: #ED1D24;
   border: 2px solid #000000;
       position: absolute;
     bottom: 0;
-    width: 100%
+        line-height: 20px;
+    width: 100%;
     }
   .copyright {
   text-align: center;
