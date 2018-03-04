@@ -31,7 +31,7 @@ margin: 0px auto;
 }
 .screenprint {
     width: 100%;
- height: 100%;
+ height: 900px;
 }
 .logo {
 max-width: 100%;
@@ -43,8 +43,8 @@ align-self: center;
 }
 
 /*MOBILE FRIENDLY*/
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 768px) {
 .screenprint {
- height: 500px;
+ height: 800px;
 }
 }
