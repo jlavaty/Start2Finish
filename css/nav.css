@@ -9,6 +9,7 @@
 .head {
   background-color: #ED1D24;
   border: 2px solid #000000;
+  max-width: 100%;
 }
 .nav-padding {
 display: flex;
