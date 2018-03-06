@@ -17,7 +17,7 @@ justify-content: space-between;
 margin-right: 78px;
 }
 .sm-logo {
-  height: 64px;
+  height: 80px;
   width: auto;
   padding-left: 10px;
 }
@@ -183,4 +183,8 @@ background-color: #ED1D24;
 
 .nav-padding {
   margin: 0px;
+}
+.sm-logo {
+  height: 64px;
+  width: auto;
 }
