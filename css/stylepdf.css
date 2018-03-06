@@ -1,5 +1,17 @@
 object {
   max-width: 100%;
   margin: 0px auto;
+  height: 100%
 }
-
+body{
+  font-family: Belwe-Bold, Arial, Helvetica;
+  margin: 0px auto;
+  background-color: #F7941E;
+      overflow-x: hidden;
+      position: relative;
+  }
+.pdf {
+width: 100%;
+height: 100%;
+display: block;
+}
